@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-urbanist: 'Urbanist', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +17,10 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+html {
+  font-family: var(--font-urbanist);
 }
 
 body {
@@ -30,4 +37,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .text-shadow-black {
+    text-shadow: 0 8px 6px rgba(0, 0, 0, 0.25);
+  }
+
+  .text-shadow-black-less {
+    text-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  }
 }
+
