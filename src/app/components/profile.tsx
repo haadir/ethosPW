@@ -16,9 +16,9 @@ const Profile: React.FC = () => {
         </div>
       </div>
       <div className="text-center text-white">
-        <h2 className="text-3xl font-md mb-1 text-shadow-black">haadi razzak</h2>
+        <h2 className="text-3xl font-md mb-1 text-shadow-black">Haadi Razzak</h2>
         <p className="text-sm font-md leading-tight mt-2 mb-1 text-shadow-black">BMC ML Engineer Intern</p>
-        <p className="text-sm font-md leading-tight mb-2 text-shadow-black">USC '25 Computer Science</p>
+        <p className="text-sm font-md leading-tight mb-2 text-shadow-black">USC &apos;25 Computer Science</p>
       </div>
     </div>
   );
