@@ -9,9 +9,9 @@ import WorkExperience from './components/workexperience';
 export default function Home() {
   return (
     <main className="min-h-screen w-full bg-gradient-to-b from-[#516395] to-[#614385]">
-      <div className="container mx-auto py-10 px-6">
+      <div className="container mx-auto py-32 px-6">
         <div className="flex flex-wrap justify-center p-6 mt-[-3rem] mr-34">
-          <div className="w-full md:w-1/4 px-4 mb-4 mr-[-5rem] p-24 mt-7">
+          <div className="w-full md:w-1/4 px-4 mb-4 mr-[-2rem] p-24 mt-16">
               <Skills />
             <div className="mt-4">
               <Education />
@@ -25,13 +25,13 @@ export default function Home() {
             <div className="rounded-lg p-20">
                 <Profile/>
             </div>
-            <div className="rounded-lg ml-20 mt-[-4rem]">
+            <div className="rounded-lg ml-20 mt-[-5rem]">
                 <Info/>
             </div>
           </div>
           <div className="w-full md:w-1/4 px-4 mb-4">
             {/* Add your third component here */}
-            <div className="rounded-lg ml-20 mt-[-4rem]">
+            <div className="rounded-lg ml-20 mt-[-6rem] ml-32">
                 <WorkExperience/>
             </div>
           </div>

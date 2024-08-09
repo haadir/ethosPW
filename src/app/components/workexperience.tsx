@@ -3,7 +3,7 @@ import React from 'react';
 const WorkExperience: React.FC = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
-        <div className="bg-white bg-opacity-20 rounded-2xl p-3 mt-36 ml-[-1.75rem] w-80">
+        <div className="bg-white bg-opacity-20 rounded-2xl p-3 mt-36 ml-[1.5rem] w-80">
             <h2 className="text-2xl font-md text-center flex items-center justify-center drop-shadow-lg text-urbanist text-shadow-black">
                 work experience <span className="ml-2 text-xl">👨‍💻</span>
             </h2>
@@ -57,7 +57,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ company, role, descript
         {company} <span className="ml-2">{icon}</span>
       </h3>
       <h4 className="text-lg text-blue-300 font-medium mb-1 text-shadow-black">{role}</h4>
-      <ul className="list-disc list-inside text- space-y-1 text-shadow-black-less">
+      <ul className="list-disc list-inside text- space-y-1">
         <li>{description}</li>
       </ul>
     </div>

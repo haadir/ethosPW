@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Urbanist } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const urbanist = Urbanist({ weight: '400', subsets: ["latin"], variable: "--font-urbanist", display: "swap" });
+const dm_sans = DM_Sans({ weight: '400', subsets: ["latin"], variable: "--font-dm_sans", display: "swap" });
 
 export const metadata: Metadata = {
   title: "ethos",
@@ -13,7 +13,7 @@ export default function RootLayout({children,}: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={urbanist.className}>
+    <html lang="en" className={dm_sans.className}>
       <body>{children}</body>
     </html>
   );
